@@ -1,0 +1,53 @@
+  470  git commit
+  471  git commit -m "adding images"
+  472  git push origin main
+  473  history
+  474  ls
+  475  cd ~/
+  476  ls
+  477  mv command.hist1 PSYC-5P02-Assignments
+  478  mv command.hist2 PSYC-5P02-Assignments
+  479  la
+  480  ls
+  481  mv output.ls PSYC-5P02-Assignments
+  482  ls
+  483  cd PSYC-5P02-Assignments
+  484  ls
+  485  cd ~/
+  486  cd /mnt/c/Users/Asus/Downl
+  487  oads
+  488  cd /mnt/c/Users/Asus/Downloads
+  489  ls
+  490  mv ProblemSet1answers.md PSYC-5P02-Assignments
+  491  ~/
+  492  cd ~/
+  493  cd PSYC-5P02-Assignments
+  494  ls
+  495  ls -lrt
+  496  cd /mnt/c/Users/Asus/Downloads
+  497  ls
+  498  git status
+  499  cd PSYC-5P02-Assignments
+  500  cd ~/
+  501  cd PSYC-5P02-Assignments
+  502  git status
+  503  cd ~/
+  504  cd /mnt/c/Users/Asus/Downloads
+  505  ls
+  506  mv Problemset1answers.md ~/
+  507  ls
+  508  mv Problemset1answers.md ~/
+  509  cd ~/
+  510  ls
+  511  mv Problemset1answers.md PSYC-5P02-Assignments
+  512  cd PSYC-5P02-Assignments
+  513  ls
+  514  git status
+  515  git add Problemset1answers.md
+  516  git add command.hist1
+  517  git add command.hist2
+  518  git add output.ls
+  519  git commit -m "moving files into this repo"
+  520  git push origin main
+  521  history
+  522  history | tail -n 53 > tail.hist

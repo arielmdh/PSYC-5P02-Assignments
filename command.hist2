@@ -1,0 +1,437 @@
+    1  ls
+    2  pwd
+    3  ls
+    4  pwd
+    5  cd ../
+    6  pwd
+    7  ls
+    8  man ls
+    9  cd ../
+   10  ls
+   11  ls-a
+   12  ls.a
+   13  ls a
+   14  ls
+   15  ls -a
+   16  ls -g
+   17  ls -t
+   18  ls -lrt
+   19  cd ~ / 
+   20  cd ~ /pwd
+   21  cd ~ / pwd
+   22  cd ~/
+   23  cd /
+   24  ls
+   25  cd home
+   26  pwd
+   27  cd home/arieldennisonhardy
+   28  cd home/
+   29  cd home
+   30  pwd
+   31  cd ./
+   32  pwd
+   33  cd ../
+   34  cd ~/
+   35  mkdir ClassFiles
+   36  ls -1
+   37  ls -lrt
+   38  touch tmp.txt
+   39  ls -1
+   40  ls -l
+   41  vi tmp.txt 
+   42  cp tmp.txt tmp2.txt
+   43  cp tmp.txt tmp3.txt 
+   44  cp tmp.txt tmpNew.txt
+   45  ls -l
+   46  mkdir replicas
+   47  ls -l
+   48  mv tmp2.txt replicas
+   49  ls *.txt
+   50  mv *.txt replicas
+   51  cd replicas
+   52  ls *.txt
+   53  rm tmp3.txt
+   54  ,mnt/c/Users/username/Downloads/
+   55  /mnt/c/Users/Asus/Downloads
+   56  cd /home
+   57  mv *.pdb ~/ClassFiles
+   58  /mnt/c/Users/Asus/Downloads
+   59  mv *.pdb ~/ClassFiles
+   60  /
+   61  ../
+   62  cd ../
+   63  cd mnt/c/Users/Asus/Download
+   64  cd c/Users/Asus/Downloads
+   65  cd /mnt/c/Users/Asus/Downloads
+   66  mv *.pdb ~/ClassFiles
+   67  ls Classfile
+   68  ls ClassFiles
+   69  cd ../
+   70  cd ~/
+   71  ls ClassFiles
+   72  cd /mnt/c/Users/Asus/Downloads
+   73  mv *.txt ~/ClassFiles
+   74  cd ~/
+   75  ls ClassFiles
+   76  sudo apt update
+   77  sudo apt install git build-essential autotools python3 r-base
+   78  wsl -u root
+   79  -u root
+   80  sudo apt update
+   81  sudo apt install git build-essential autotools python3 r-base
+   82  sudo apt-git install git -y
+   83  sudo apt-get install git -y
+   84  sudo apt update
+   85  sudo apt install git build-essential autotools python3 r-base
+   86  sudo apt-get install git -y
+   87  man ls
+   88  pwd
+   89  cd ../
+   90  ~/
+   91  cd /replicas
+   92  cd replicas
+   93  cd ClassFiles
+   94  ls
+   95  ~/
+   96  cd ../
+   97  ls
+   98  pwd
+   99  ~/
+  100  man cd
+  101  cd ~/ClassFiles
+  102  ls
+  103  cd ~/replicas
+  104  ls
+  105  rm tmp.txt
+  106  ls
+  107  ls *.txt
+  108  ls *.pdb
+  109  ../
+  110  cd ~/ClassFiles
+  111  wc cubane.pdb
+  112  man wc
+  113  wc *.pdb
+  114  wc *.pdb > lengths.txt
+  115  touch tmp.txt
+  116  ls
+  117  ls lrt
+  118  ls -lrt
+  119  man cat
+  120  cat lengths.txt
+  121  wc LittleWomen.txt 
+  122  cat cubane.txt
+  123  ls
+  124  cat cubane.pdb
+  125  sort -n lengths.txt
+  126  sort -n lengths.txt > sorted-lengths.txt
+  127  cat sorted-lengths.txt
+  128  touch sorted-lengths2.txt
+  129  ls -lrt
+  130  sort -n lengths.txt | head -n 1
+  131  wc -w *.pdb | sort -n | head -n 1
+  132  man head
+  133  -n man
+  134  man grep
+  135  cat haiku.txt
+  136  grep the haiku.txt
+  137  egrep |the|is
+  138  egrep |the|is| haiku.txt
+  139  man cat
+  140  egrep 'the|is' haiku.txt
+  141  find lengths.txt
+  142  screen -ls
+  143  sudo chmod 740 LittleWomen.txt
+  144  ls -lrt
+  145  sudo chmond 777 LittleWomen.txt
+  146  sudo chmod 777 LittleWomen.txt
+  147  ls -lrt
+  148  /
+  149  cd ..?
+  150  cd../
+  151  cd ../
+  152  git config --global user.name "Ariel Dennison-Hardy"
+  153  git config --global user.email "arielmdh@gmail.com"
+  154  git config --global --edit
+  155  cd ~/
+  156  ls -a
+  157  notepad gitconfig
+  158  vi .gitconfig
+  159  git config --global init.defaultBranch main
+  160  vi .gitconfig
+  161  ls
+  162  git config --global --edit
+  163  cd /ClassFiles
+  164  cd ~/
+  165  cd ClassFiles
+  166  mk dir Recipes
+  167  mkdir Recipes
+  168  cd Recipes
+  169  cd .git
+  170  ls
+  171  ls -a
+  172  ls -all
+  173  cd .git
+  174  ls
+  175  git status
+  176  pwd
+  177  ls -all
+  178  git init
+  179  git status
+  180  touch guacamole.md
+  181  vi guacamole.md
+  182  git status
+  183  git add guacamole.md
+  184  git commmit -m "Create initial structure for a Guacamole recipe"
+  185  git commit -m "Create initial structure for a Guacamole recipe"
+  186  git status
+  187  vi Guacamole
+  188  vi guacamole
+  189  vi gucamole.md
+  190  vi guacamole.md
+  191  git diff
+  192  git add guacamole.md
+  193  git status
+  194  git diff
+  195  git diff --staged
+  196  git commit -m "added some ingredients"
+  197  vi guacamole.md
+  198  git diff
+  199  git add guacamole.md
+  200  git commit -m "more avocados yay"
+  201  git log
+  202  git log--oneline
+  203  git log --oneline
+  204  git log --graph
+  205  mk dir HealthyMeals
+  206  mkdir HealthyMeals
+  207  git diff
+  208  cd HealthyMeals
+  209  touch Cake
+  210  cd Recipes
+  211  cd ../
+  212  git diff
+  213  cd HealthyMeals
+  214  cd ../
+  215  git diff
+  216  git add HealthyMeals/Cake
+  217  git diff
+  218  git status
+  219  vi guacamole.md
+  220  git diff
+  221  git diff HEAD guacamole.md
+  222  git log
+  223  git log --oneline
+  224  git diff 9efae4c guacamole.md
+  225  git diff 4ec0d49 guacamole.md
+  226  git diff 725e6bc guacamole.md
+  227  git add guacamole.md
+  228  git commit -m "just making sure"
+  229  git log
+  230  git log --oneline
+  231  git restore guacamole.md
+  232  git log --oneline
+  233  vi guacamole.md 
+  234  git dif
+  235  git diff
+  236  vi guacamole.md 
+  237  git restore guacamole.md 
+  238  vi guacamole.md 
+  239  git log --oneline
+  240  git restore -s 9efae4c guacamole.md 
+  241  vi guacamole.md 
+  242  git log
+  243  git log --oneline
+  244  ls
+  245  touch tmp.txt
+  246  git diff
+  247  git status
+  248  touch .gitignore
+  249  vi .gitignore
+  250  git status
+  251  cd ~/
+  252  ls -a
+  253  ssh-keygen -t ed25519 -C "arielmdh@gmail.com"
+  254  ls -a
+  255  vi Githubkey.pub
+  256  git remote add origin git@github.com:arielmdh/Recipes.git
+  257  cd Recipes
+  258  cd ClassFiles
+  259  cd Recipes
+  260  git remote add origin git@github.com:arielmdh/Recipes.git
+  261  git push origin main
+  262  vi Githubkey.pub
+  263  cd ~/
+  264  vi Githubkey.pub
+  265  cd ClassFiles
+  266  cd ~/
+  267  vi Githubkey.pub
+  268  cd ClassFiles
+  269  cd Recipes
+  270  git remote add origin git@github.com:arielmdh/Recipes.git
+  271  git push origin main
+  272  git -M main
+  273  git push origin main
+  274  ssh-keygen -t ed25519 -C "arielmdh@gmail.com"
+  275  ls -a
+  276  cat Githubkey.pub
+  277  git remote add origin git@github.com:arielmdh/Recipes.git
+  278  git push origin main
+  279  git remote add origin git@github.com:https://github.com/arielmdh/Recipes.git/Recipes.git
+  280  git push origin main
+  281  ls -lrt
+  282  ~/. ssh/id_ed25519.pub
+  283  ssh-keygen -t ed25519 -C "arielmdh@gmail.com"
+  284  ls -a
+  285  git push origin main
+  286  ~/
+  287  cd ~/
+  288  git push origin main
+  289  push origin main
+  290  ls -a
+  291  cd ClassFiles
+  292  cd Recipes
+  293  git push origin main
+  294  cd ~/
+  295  ls -a
+  296  ssh-keygen -t ed25519 -C "arielmdh@gmail.com"
+  297  pwd
+  298  ls
+  299  ls -al
+  300  cd .ssh/
+  301  ls
+  302  vi id_ed25519.pub 
+  303  cd ../
+  304  cd ClassFiles
+  305  cd Recipes
+  306  git push origin main
+  307  git status
+  308  vi guacamole.md
+  309  git status
+  310  ls -a
+  311  cd ClassFiles
+  312  cd ../
+  313  ls -a
+  314  cat haiku.txt
+  315  grep the haiku.txt
+  316  cat ethane.pdb
+  317  ls -lrt
+  318  ls -r
+  319  ls -lr
+  320  ls -rt
+  321  - ls
+  322  la
+  323  ls
+  324  ~/
+  325  cd ~/
+  326  ../
+  327  cd ClassFiles
+  328  ../
+  329  ./
+  330  cd ../
+  331  cd ClassFiles
+  332  cd Recipes
+  333  cd ../
+  334  cd Recipes
+  335  cd ~/
+  336  cd ClassFIles
+  337  cd ClassFiles
+  338  cd Recipes
+  339  cd /
+  340  cd ClassFiles
+  341  cd ~/
+  342  cd ClassFiles
+  343  cd
+  344  cd ~
+  345  cd ClassFiles
+  346  cd
+  347  cd ClassFiles
+  348  cd Recipes
+  349  cd ClassFiles../
+  350  cd ./
+  351  ../
+  352  cd ../
+  353  mkdir Data
+  354  ls
+  355  touch subj01.txt
+  356  ls
+  357  cp subj02.txt
+  358  cp --help
+  359  cp subj01.txt
+  360  ls
+  361  cp subj01.txt
+  362  cp subj01.txt ClassFiles
+  363  ls
+  364  rm ClassFiles
+  365  ls
+  366  cp ClassFiles subj01.txt 
+  367  ~/
+  368  cd ~/
+  369  cp ClassFiles subj01.txt
+  370  ls
+  371  cd ClassFIles
+  372  cd ClassFiles
+  373  cp man
+  374  man cp
+  375  cp subj01.txt ClassFiles
+  376  ls
+  377  cp ClassFiles subj01.txt
+  378  la
+  379  ls
+  380  rm ClassFiles
+  381  la
+  382  copy [subj01.txt] [ClassFiles]
+  383  cp Linux\Ubuntu\home\arieldennisonhardy\ClassFiles\subj01.txt Linux\Ubuntu\home\arieldennisonhardy\ClassFiles\subj02.txt
+  384  cp C:\Users\arieldennisonhardy\ClassFiles\subj01.txt C:\Users\arieldennisonhardy\ClassFiles\subj02.txt
+  385  cp subj01.txt subj02.txt
+  386  ls
+  387  rm subj02.txt
+  388  ls
+  389  cp subj01.txt subj02.txt subj03.txt subj04.txt subj05.txt
+  390  ls
+  391  cp subj01.txt subj02.txt subj03.txt
+  392  cp subj01.txt subj02.txt subj03.txt subj04.txt subj05.txt C:\ClassFilesls
+  393  ls
+  394  cp subj01.txt subj02.txt subj03.txt subj04.txt subj05.txt C:\Users\Asus\ClassFilesClassFiles
+  395  cp subj01.txt subj02.txt
+  396  cp subj01.txt subj03.txt
+  397  cp subj01.txt subj04.txt
+  398  cp subj01.txt subj05.txt
+  399  ls
+  400  cp subj01.txt subj011.txt
+  401  for i in {1,2,3,4}; do cp subj01.txt "subj02_$i.txt"; ClassFiles; ;done
+  402  ls
+  403  rm subj011.txt
+  404  sp subj01.txt subj11.txt
+  405  cp subj01.txt subj11.txt
+  406  ls
+  407  man mv
+  408  mv subj01.txt Data
+  409  ls
+  410  cd Data
+  411  ls
+  412  cd ../
+  413  mv subj?.txt Data
+  414  mv subj*.txt Data
+  415  ls
+  416  cd Data
+  417  ls
+  418  rm subj0*.txt
+  419  ls
+  420  man tee
+  421  ls -l
+  422  ~/
+  423  cd ~/
+  424  ls -l
+  425  ls -l | tee -a program.ls
+  426  ls
+  427  man tee
+  428  vi program.ls
+  429  rm program.ls
+  430  ls -l | tee -a output.ls
+  431  vi output.ls
+  432  screen
+  433  man screen
+  434  screen -ls
+  435  sudo apt install screen
+  436  screen
+  437  history | tee -a command.hist2

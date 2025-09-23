@@ -1,0 +1,81 @@
+    1  ls
+    2  pwd
+    3  ls
+    4  pwd
+    5  cd ../
+    6  pwd
+    7  ls
+    8  man ls
+    9  cd ../
+   10  ls
+   11  ls-a
+   12  ls.a
+   13  ls a
+   14  ls
+   15  ls -a
+   16  ls -g
+   17  ls -t
+   18  ls -lrt
+   19  cd ~ / 
+   20  cd ~ /pwd
+   21  cd ~ / pwd
+   22  cd ~/
+   23  cd /
+   24  ls
+   25  cd home
+   26  pwd
+   27  cd home/arieldennisonhardy
+   28  cd home/
+   29  cd home
+   30  pwd
+   31  cd ./
+   32  pwd
+   33  cd ../
+   34  cd ~/
+   35  mkdir ClassFiles
+   36  ls -1
+   37  ls -lrt
+   38  touch tmp.txt
+   39  ls -1
+   40  ls -l
+   41  vi tmp.txt 
+   42  cp tmp.txt tmp2.txt
+   43  cp tmp.txt tmp3.txt 
+   44  cp tmp.txt tmpNew.txt
+   45  ls -l
+   46  mkdir replicas
+   47  ls -l
+   48  mv tmp2.txt replicas
+   49  ls *.txt
+   50  mv *.txt replicas
+   51  cd replicas
+   52  ls *.txt
+   53  rm tmp3.txt
+   54  ,mnt/c/Users/username/Downloads/
+   55  /mnt/c/Users/Asus/Downloads
+   56  cd /home
+   57  mv *.pdb ~/ClassFiles
+   58  /mnt/c/Users/Asus/Downloads
+   59  mv *.pdb ~/ClassFiles
+   60  /
+   61  ../
+   62  cd ../
+   63  cd mnt/c/Users/Asus/Download
+   64  cd c/Users/Asus/Downloads
+   65  cd /mnt/c/Users/Asus/Downloads
+   66  mv *.pdb ~/ClassFiles
+   67  ls Classfile
+   68  ls ClassFiles
+   69  cd ../
+   70  cd ~/
+   71  ls ClassFiles
+   72  cd /mnt/c/Users/Asus/Downloads
+   73  mv *.txt ~/ClassFiles
+   74  cd ~/
+   75  ls ClassFiles
+   76  sudo apt update
+   77  sudo apt install git build-essential autotools python3 r-base
+   78  wsl -u root
+   79  -u root
+   80  sudo apt update
+   81  history | tee -a command.hist1

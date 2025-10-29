@@ -1,4 +1,3 @@
-
 # PSYC 5P02- Introduction to Programming for Psychology
 ## Fall 2025
 
@@ -11,17 +10,29 @@
 --- 
 ###  Feedback:
 
-* rather than specifying the full path for the stimulus directory (i.e., ``C:/Users/joe2m/Desktop/PSYC5P02/PS3/stimuli/L.png"``, you could just specify it relative to where you expect the experiment file to be, i.e., ``stimuli/L.png``. That way if you have to move it to a different place the relative directories will remain the same and you don't have to replace the full path. OR, you could  create the path as a global variable, then you could specify your stimuli as something lik ``path + stimuli/L.png``
-* The instructions say to use the 'T' key for target present trials but the code asks for 'Y'. 
-* The stimuli locations are randomized, which I do like, but that means that stimuli can overlap which would cause problems. Is there a way you could check to make sure they don't overlap and then pick a new location if they do?
-* You have basically repeated the same code for the practice and the main experiment. If you're repeating code, try to figure out if there's a way you can use a function (def) or class instead. 
-* The `waitKeys()` method you used works fine, although it pauses the experiment, so if you had other things you wanted to do while waiting for a response you would want to use the `getKeys()` method and put it in a loop.
-* There's probably a way to combine your accuracy and feedback into a single set of if statements -- i.e., you're checking for accuracy, setting a variable, and then checking the value of that variable a few lines later. Why not try to combine it into one set of checks?
-* Similarly, your loops of creating distractors and then drawing them feels like it could have been incorporated into one single loop.
-* **Overall:** Great work. Did pretty much everything I asked for, with a few small bugs. Showing progress with fundamentals. Not too much hard-coding. Try to use functions instead of repeating code. 
+* Great use of (nested) functions! 
+* Would like a few more comments about new solutions, like how the ExperimentHandler works, and how the code defining the locations along a circle works. 
+* * The `waitKeys()` method you used works fine, although it pauses the experiment, so if you had other things you wanted to do while waiting for a response you would want to use the `getKeys()` method and put it in a loop.
+* You could combine your logicals when checking for correct responses, such as `if (target_present and key == 'right') or (not target_present and key == 'left'):`
+* not sure if you need the variable `corr_ans`. I think I guess you're trying to save what the correct answer was, and not the response they made, but that could also be easily obtained by saving the response and the condition? 
+* The code writes two files. It's not entirely clear to me why, but that's the kind of thing that should make you wonder if you've organized your code properly 
+* Set sizes aren't randomized, but are blocked. Could be situations where you don't want to have this. Is there a way to make it truly random?
+* This code here:
+> `resp_clock = core.Clock()
+keys = event.waitKeys(timeStamped=resp_clock)
+rt = resp_clock.getTime()
+print (f"RT: {rt:.3f}") #Print reaction time`
 
-**Accuracy & Efficiency:** 20/25
-**Explanation and documentation:** 25/25
+This is called before you run the experiment, so the window opens and then needs a response (but it isn't clear that's the case). The RT printed to the terminal is just the RT from that one keyboard response. THEN the experiment actually starts.
+
+* It's not clear to me what this code is doing:
+ > `if __name__ == "__main__":
+    main_experiment()`
+
+Needs to be better documented!
+* I also would have liked to have seen the experiment/trial handler better explained so it's clear to me you understand how it works. * **Overall:** Generally speaking very good. Managed to accomplish most of what I asked. Were able to use functions usefully. Good use of global variables. A few small things that could lead to bugs/gremlins but works good. There are a few things I would like better documented (e.g., how. you are using the Experiment Handler to write data), since we didn't cover it in class. 
+* 
+
+**Accuracy & Efficiency:** 22/25
+**Explanation and documentation:** 23/25
 **Total:** 45/50
-          
-
